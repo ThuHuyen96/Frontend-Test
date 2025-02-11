@@ -21,9 +21,8 @@ export default function Footer({ data }: Props) {
             <div className="text-base md:col-span-8">
               <ul className="md:mt-2 space-y-1 text-[rgba(255,255,255,0.6)] md:grid grid-cols-3">
                 {data?.footer?.links?.map((link: any, index: number) => (
-                  <li>
+                  <li key={index}>
                     <Link
-                      key={index}
                       href="#"
                       className="hover:text-white">
                       {link?.name}

@@ -18,6 +18,7 @@ export default function Block1({ data }: Props) {
       <div className="mt-5 md:mt-10 grid md:grid-cols-3 gap-6 md:gap-8 lg:gap-6 md:pt-11">
         {data?.cases.map((item: any, index: number) => (
           <PostItem
+            key={index}
             data={item}
             image={index}
             className={index === 1 ? "md:relative md:-top-11" : ""}

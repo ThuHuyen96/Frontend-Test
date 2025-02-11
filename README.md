@@ -14,24 +14,6 @@ pnpm dev
 bun dev
 ```
 
-# Multi Language
-
-### Create language key
-
-Step 1. Add key language in [here](https://docs.google.com/spreadsheets/d/1zDrbGpaf2g5gjGvz9-uOoiUb5Kf9vzPIQM23OSFJ89g/edit?usp=sharing). Save Csv file to src/i18n/language.csv
-
-Step 2. Run command `cd src/i18n && node CsvToJson.cjs`
-
-### Usage
-
-```
-    import { useTranslations } from "next-intl"
-
-    const trans = useTranslations("general")
-
-    console.log('content', trans("edit"))
-```
-
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
