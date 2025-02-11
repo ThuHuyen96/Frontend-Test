@@ -1,0 +1,27 @@
+{
+    "message": {
+        "success": "Successful",
+        "fail": "Failure",
+        "loading": "Loading",
+        "session_expired": "Session expired. Please log in again.",
+        "the_server_encountered_error": "The server encountered an error. Please try again later."
+    },
+    "error": {
+        "error404": "The page you are trying to access does not exist",
+        "not_found": "Oops! Page not found"
+    },
+    "general": {
+        "dashboard": "Dashboard",
+        "locale": "{locale, select, en {English} es {Spanish} fr {French} de {German} pt {Portuguese} it {Italian} tl {Filipino} ru {Russian} pl {Polish} nl {Dutch} other {Unbekannt}}"
+    },
+    "button": {
+        "cancel": "Cancel",
+        "submit": "Submit"
+    },
+    "menu": {
+        "menu1": "Titre 1",
+        "menu2": "Titre 2",
+        "menu3": "Titre 3",
+        "menu4": "Titre 4"
+    }
+}
